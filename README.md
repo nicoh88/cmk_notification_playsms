@@ -11,6 +11,8 @@ Folgende Variablen müssen angepasst werden:
  * `PLAYSMSPW` - User-Token eures PlaySMS Webservice Users
  * `PLAYSMSURL` - HTTP/HTTPS URL zu eurer PlaySMS Installation (inkl. index.php | https://sub.domain.com:443/playsms/index.php)
 
+![playsms-user-config.jpg](playsms-user-config.jpg?raw=true "playsms-user-config.jpg")
+
 Das Skript gehört bei einer OMD-Installation in das Verzeichnis `/omd/sites/sitename/local/share/check_mk/notifications/` und muss natürlich mit `chmod` sowie `chown` für den OMD-User ausführbar gemacht werden. In den WATO Benutzereinstellungen kann dann bei *Flexible Notifications* **SMS via playSMS Gateway** ausgewählt und konfiguriert werden.
 
 ![cmk-wato-user-notifications.jpg](cmk-wato-user-notifications.jpg?raw=true "cmk-wato-user-notifications.jpg")
